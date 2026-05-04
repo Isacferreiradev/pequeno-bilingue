@@ -156,21 +156,14 @@ header p {
 
 /* Video */
 .video-container {
-    width: 100%;
+    width: 80%;
+    max-width: 350px;
     margin: 30px auto;
     position: relative;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-}
-
-.video-placeholder {
-    width: 100%;
     aspect-ratio: 9/16;
-    background-color: #eee;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .video-sticker {
